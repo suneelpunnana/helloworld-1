@@ -20,4 +20,4 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-    "- task: PublishBuildArtifacts@1"
+- task: PublishBuildArtifacts@1
